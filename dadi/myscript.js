@@ -1,9 +1,11 @@
 // Generare un numero random da 1 a 6, sia per il giocatore sia per il computer. Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 // random user number
-const userNumber = Math.floor(Math.random() * 6) + 1;
-//console.log(userNumber);
+const userNumber = parseInt(Math.floor(Math.random() * 6) + 1);
+console.log(userNumber);
 
 //random computer number
-const computerNumber = Math.floor(Math.random() * 6) + 1;
+const computerNumber = parseInt(Math.floor(Math.random() * 6) + 1);
 //console.log(computerNumber);
+
+// choose the winner
