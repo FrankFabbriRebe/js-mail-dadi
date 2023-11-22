@@ -5,3 +5,8 @@ const email = prompt("Inserisci la tua email");
 
 // array valid email
 const validEmail = ["franco@gmail.com", "paolo@gmail.com", "marco@gmail.com"];
+
+// create for cicle
+for (let i = 0; i < validEmail.length; i ++)    {
+    console.log(validEmail[i]);
+}
