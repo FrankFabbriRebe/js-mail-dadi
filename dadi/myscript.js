@@ -2,10 +2,17 @@
 
 // random user number
 const userNumber = parseInt(Math.floor(Math.random() * 6) + 1);
-console.log(userNumber);
+console.log("User number: " + userNumber);
 
 //random computer number
 const computerNumber = parseInt(Math.floor(Math.random() * 6) + 1);
-//console.log(computerNumber);
+console.log("Computer number: " + computerNumber);
 
 // choose the winner
+if (userNumber > computerNumber)    {
+    console.log("The user won!");
+} else if (userNumber < computerNumber) {
+    console.log("The computer won!");
+} else if (userNumber === computerNumber) {
+    console.log("This is a draw!");
+}
