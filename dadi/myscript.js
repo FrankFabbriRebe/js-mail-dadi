@@ -3,3 +3,7 @@
 // random user number
 const userNumber = Math.floor(Math.random() * 6) + 1;
 //console.log(userNumber);
+
+//random computer number
+const computerNumber = Math.floor(Math.random() * 6) + 1;
+//console.log(computerNumber);
